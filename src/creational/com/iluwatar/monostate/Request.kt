@@ -1,3 +1,3 @@
 package creational.com.iluwatar.monostate
 
-class Request(val value: String)
+data class Request(val value: String)
