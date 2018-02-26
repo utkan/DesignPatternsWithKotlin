@@ -17,6 +17,9 @@ object App {
 
         BasicConfigurator.configure()
 
+        val car = Car.build(required = "rq value") {model = "X"}
+        LOGGER.info(car.toString())
+
         val warrior = CharacterStepBuilder
                 .newBuilder()
                 .name("Amberjill")
