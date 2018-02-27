@@ -7,11 +7,6 @@ object App {
 
     private val LOGGER = LoggerFactory.getLogger(App::class.java)
 
-    /**
-     * Program entry point
-     *
-     * @param args command line args
-     */
     @JvmStatic
     fun main(args: Array<String>) {
 
