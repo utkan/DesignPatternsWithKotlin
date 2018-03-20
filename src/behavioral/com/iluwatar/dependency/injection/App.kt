@@ -1,7 +1,6 @@
 package behavioral.com.iluwatar.dependency.injection
 
 import com.google.inject.Guice
-import com.google.inject.Injector
 import org.apache.log4j.BasicConfigurator
 
 /**
